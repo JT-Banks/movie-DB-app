@@ -1,0 +1,23 @@
+{
+  "name": "moviedb-app",
+  "version": "1.0.0",
+  "description": "Simple movie database search App\r Utilizes IMDB API",
+  "main": "index.js",
+  "type": "module",
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "dotenv": "^10.0.0",
+    "env": "^0.0.2",
+    "socket.io": "^4.3.1"
+  }
+}
